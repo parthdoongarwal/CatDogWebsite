@@ -1,0 +1,697 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+
+
+}
+
+/* header section */
+
+header {
+  background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/4c582d9e19105463aab222bb/pexelsphoto3735238.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#h-content-con {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 5%;
+}
+
+#hii {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header-icon {
+  color: white;
+  width: 10%;
+
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+#header-icon i {
+  margin: 15px;
+}
+
+@media (max-width: 868px) {
+  #hii {
+    padding-left: 10%;
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  #header-icon {
+    padding-right: 10%;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+  #h-content-con img {
+    width: 60%;
+  }
+}
+
+/* russia cat section */
+
+#russia-cat-sec {
+  padding: 5%;
+
+  height: 60vh;
+  display: flex;
+}
+
+#russia-text {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+#russia-text p {
+  margin-right: 6%;
+  margin-bottom: 5%;
+  letter-spacing: 4px;
+  font-size: 1.25rem;
+}
+
+#russia-text h1 {
+  width: 50%;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+#russia-cat-img {
+  width: 30%;
+  background: url("https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/de4f96a12d3250568624d803/pexelsphoto3825031.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#russia-par-cat {
+  padding-left: 1%;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  line-height: 1.8em;
+}
+
+#russia-par-cat p {
+  padding: 0 10% 0 10%;
+  margin-top: 10%;
+}
+
+@media (max-width: 771px) {
+  #russia-cat-sec {
+    
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+  }
+
+  #russia-cat-img {
+    border-radius: 15px;
+    width: 90%;
+    height: 100%;
+  }
+
+  #russia-text {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    display: block;
+  }
+
+  #russia-par-cat {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  #russia-text h1 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #russia-text p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* dotted dog section */
+
+#dotted-dog-sec {
+  background-color: #e5e5e5;
+  display: flex;
+  height: 80vh;
+}
+
+#animal-grid {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#iamtheimage {
+  width: 90%;
+  height: 100%;
+  background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/47b1bf68c0e059489c6ebdea/pexelsphoto3763311.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+#dotted-god-img-con {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
+  width: 40%;
+}
+
+.animals {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animals i {
+  margin-top: 20px;
+  display: block;
+  font-size: 80px;
+}
+
+@media (max-width: 971px) {
+  #dotted-dog-sec {
+   
+    flex-direction: column;
+
+    height: 120vh;
+  }
+
+  #dotted-god-img-con {
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+  }
+  #iamtheimage {
+    margin-top: 5%;
+    width: 80%;
+    height: 90%;
+  }
+
+  #animal-grid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* ------------ */
+#pet-love {
+  height: 100vh;
+  display: flex;
+}
+
+#bigpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1cac4ec28ca2525b914b842d/pexelsphoto374825.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#twosmallpicsdogsec {
+  display: grid;
+  width: 50%;
+  grid-template-rows: 50% 50%;
+}
+
+#noeyedog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#noeyedogpic {
+  width: 35%;
+  height: 70%;
+  border-radius: 100%;
+  background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/fa8e68f8e50a52358633a3b4/pexelsphoto2023384.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#twohumandogs {
+  background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/40baa031b9af5854a8abe846/pexelsphoto2215599.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#mml {
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 22px;
+  word-spacing: 10px;
+}
+
+#pet-text {
+  color: white;
+  font-size: 65px;
+
+  font-weight: 200;
+}
+
+#pet-love-para {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 75%;
+  line-height: 28px;
+}
+
+
+@media(max-width:780px){
+#pet-love{
+  padding:0;
+  width:90vw;
+  flex-direction: column;
+  height:220vh;
+}
+
+
+#bigpic{
+  margin: 0;
+  width:100%;
+  height:880px;
+}
+
+#twosmallpicsdogsec{
+
+  width:96vw;
+  height:800px;
+}
+
+#pet-love-para{
+width:100%;
+padding:30px;
+margin-bottom: 20px;
+}
+
+}
+
+
+/* ------------- Training section */
+
+#training-section{
+padding:80px;
+display:flex;
+height:80vh;
+}
+
+#text-about-training-sec{
+ margin-right:70px;
+  display:grid;
+  grid-template-columns: 40% 40%;
+
+  grid-auto-rows: 52%;
+
+ grid-column-gap: 50px;
+height:97%;
+width:80%;
+justify-content: end;
+
+}
+
+.training-text{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+height:100%
+
+
+}
+
+
+.training-big-text{
+padding-top:50px;
+font-size:45px;
+}
+
+.training-secondary-text{
+padding-top:20px;
+font-weight: 100;
+letter-spacing: 4px;
+font-size:20px;
+}
+
+.training-text-about-dogs{
+
+  font-size: 16px;
+padding-top:20px;
+text-align: center;
+line-height: 25px;
+opacity: 0.7;
+word-spacing: 2px;
+}
+
+
+#training-image-sec{
+  background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/ff11a2d04ec8524b912d940d/pexelsphoto1389994.jpeg");
+  height:104%;
+  width:500px;
+  background-size: cover;
+  background-position: center    ;
+  margin-right:100px;
+}
+
+@media(max-width:980px){
+#training-section{
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+height:250vh;
+padding:0px;
+}
+
+#text-about-training-sec{
+
+
+  grid-gap:0;
+  height:850px;
+grid-template-columns: 80%;
+grid-auto-rows: 200px;
+  width:100%;
+  margin:0;
+  padding:0;
+
+justify-content: center;
+grid-column-gap: 0px;
+}
+
+#training-image-sec{
+  margin-top:50px;
+  margin-right:0;
+  padding:0;
+  height:800px;
+width:80%;
+}
+
+}
+
+/* -------- vet clinic section */
+
+#vetClinic-section{
+  padding:50px;
+background: lightgray;
+height:80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#vetRescue-text-section{
+
+height:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+width:35%;
+}
+
+#vetRescue-conatiner{
+
+}
+
+#vetRescue-vc{
+font-weight: 500;
+
+
+text-align: left;
+margin-bottom:20px;
+}
+
+#vetclinic-bigtext{
+ 
+font-size: 55px;
+font-weight: 400;
+width: 250px;
+margin-bottom:30px;
+}
+
+#para-vetclinic{
+
+width:300px;
+line-height: 25px;
+}
+
+#vetRescue-images-section{
+  display: flex;
+width:900px;
+height:100%;
+width:70%;
+}
+
+#vetClinic-whitesedimage{
+background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/28023d25033a5ea5a10bab0a/pexelsphoto3294248.jpeg");
+background-position: center;
+background-size: cover;
+width:50%;
+height:100%;
+}
+
+#vetClinic-blacksedimage{
+  background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/ebea86f6b57d55b0a7ec7452/555.png") black;
+  background-position: center;
+ background-size: cover;
+  width:100%;
+
+  height:50%;
+}
+
+#vetRescue-images-conatiner{
+  background-color: black;
+  width:40%;
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+}
+
+@media(max-width:900px){
+  #vetClinic-section{
+    flex-direction: column;
+    
+  height: 150vh;
+  padding:0;
+  }
+
+#vetRescue-images-section{
+  margin:0;
+  flex-direction: column;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+#vetRescue-images-conatiner{
+  height:300px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+#vetClinic-blacksedimage{
+
+width:100%;
+height:100%;
+}
+  
+#vetClinic-whitesedimage{
+
+width:70%;
+height:400px;
+}
+
+#vetRescue-text-section{
+  height: 300px;
+  width: 100%;
+  
+}
+
+#vetRescue-conatiner{
+width:100%;
+
+display: grid;
+place-items: center;
+}
+
+#para-vetclinic{
+  width:80%;
+  text-align: center;
+}
+
+#vetclinic-bigtext{
+width:100%;
+text-align: center;
+}
+
+}
+
+/* -------------      sweet heart section  */
+
+#sweet-heart-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background:url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/92a300c36c3c56bc8ce9510f/pexelsphoto1458916.jpg");
+  background-size: cover;
+  background-position: center;
+  height:65vh;
+}
+
+#sec-sweet-heart-section{
+  margin-right: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+
+
+#sweet-heart-h1{
+  font-weight: 100;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+#sweet-heart-p{
+  margin-bottom: 40px;
+  width: 500px;
+ 
+  line-height: 25px;
+  text-align:right;
+}
+
+form{
+  margin: 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#text-form{
+  padding-right: 15px;
+  height: 45px;
+  width:66%;/*65%*/
+  font-size: 17px;
+  text-align: right;
+
+}
+
+#sumbit-button{
+  font-size: 17px;
+  background: black;
+  color: white;
+  height: 100%;
+  width: 20%;
+}
+
+
+@media (max-width:1021px) {
+
+  #sweet-heart-section{
+    background:#e1e8f0;
+  }
+
+
+  #sec-sweet-heart-section{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+
+  #sweet-heart-p{
+    width: 80%;
+    text-align: center;
+  }
+
+
+  form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  #text-form{
+    height:50px;
+    text-align: center;
+    padding: 0;
+    width:70%;
+  }
+
+  #sumbit-button{
+    margin-top: 15px;
+width:70%;
+height:50px
+  }
+}
+
+footer{
+  background: black;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:60px;
+  color:white;
+
+}
